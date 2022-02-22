@@ -1,22 +1,26 @@
-# deployment-generator
+# K8S YAML Generator
+
+`k8s-yaml-generator` is a simple tool to generate YAML files to aid in creating k8s deployments and services.
+
+![Screen Shot](images/screen-shot.png)
 
 ## CLI Commands
 
 ``` bash
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn run dev
 
 # build for production with minification
-npm run build
+yarn run build
 
 # test the production build locally
-npm run serve
+yarn run serve
 
 # run tests with jest and enzyme
-npm run test
+yarn run test
 ```
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
