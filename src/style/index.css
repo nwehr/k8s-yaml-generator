@@ -1,0 +1,36 @@
+body {
+	height: 100%;
+	width: 100%;
+	/* padding: 1em; */
+	padding: 0;
+	margin: 0;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+input {
+	width: 100%;
+}
+
+div.pure-g > div {
+	box-sizing: border-box;
+	padding: 1em;
+}
+
+pre {
+	background: #ddd;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+form.pure-form fieldset.attributes-fieldset {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+form.pure-form fieldset.attributes-fieldset:first-child {
+	margin-top: 0;
+}
