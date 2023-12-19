@@ -4,8 +4,8 @@ import DeploymentAttributes from "./deploymentAttributes"
 import ContainerAttributes from "./containerAttributes"
 import ServiceAttributes from "./serviceAttributes"
 
-import DeploymentYAML from "./deploymentYAML"
-import ServiceYAML from "./serviceYAML"
+import DeploymentYAML from "./deploymentYaml"
+import ServiceYAML from "./serviceYaml"
 
 const App = () => {
 	const [name, setName] = useState("")
